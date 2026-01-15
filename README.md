@@ -1,7 +1,5 @@
 https://github.com/buffaloCK/mesto-ad
 
-Стартовый набор для выполнения проектной работы Место
+https://buffalock.github.io/mesto-production/
 
-Для запуска приложения необходимо использовать live-server
-![изображение live-server](image.png)
-Live-server является расширением VSCode
+https://github.com/buffaloCK/mesto-production
