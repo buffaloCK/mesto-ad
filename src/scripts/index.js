@@ -33,20 +33,20 @@ const cardForm = cardFormModalWindow.querySelector(".popup__form");
 const cardNameInput = cardForm.querySelector(".popup__input_type_card-name");
 const cardLinkInput = cardForm.querySelector(".popup__input_type_url");
 
+const openProfileFormButton = document.querySelector(".profile__edit-button");
+const openCardFormButton = document.querySelector(".profile__add-button");
+
 const imageModalWindow = document.querySelector(".popup_type_image");
 const imageElement = imageModalWindow.querySelector(".popup__image");
 const imageCaption = imageModalWindow.querySelector(".popup__caption");
 
-const openProfileFormButton = document.querySelector(".profile__edit-button");
-const openCardFormButton = document.querySelector(".profile__add-button");
+const avatarFormModalWindow = document.querySelector(".popup_type_edit-avatar");
+const avatarForm = avatarFormModalWindow.querySelector(".popup__form");
+const avatarInput = avatarForm.querySelector(".popup__input");
 
 const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile__description");
 const profileAvatar = document.querySelector(".profile__image");
-
-const avatarFormModalWindow = document.querySelector(".popup_type_edit-avatar");
-const avatarForm = avatarFormModalWindow.querySelector(".popup__form");
-const avatarInput = avatarForm.querySelector(".popup__input");
 
 const removeCardModalWindow = document.querySelector(".popup_type_remove-card");
 const removeCardForm = removeCardModalWindow.querySelector(".popup__form");
